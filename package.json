@@ -1,0 +1,21 @@
+{
+  "name": "yourcpa-site",
+  "version": "3.0.0",
+  "description": "YourCPA Firm marketing site with contact + newsletter backend (Node/Express).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "cpa",
+    "website",
+    "express",
+    "node"
+  ],
+  "author": "You",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

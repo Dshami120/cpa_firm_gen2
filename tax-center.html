@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tax Center - YourCPA Firm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Full-service CPA firm website.">
+    <link rel="stylesheet" href="/styles.css">
+    <script defer src="/script.js"></script>
+</head>
+<body>
+<header class="top-bar">
+    <div class="container top-bar-inner">
+        <div class="top-bar-left">
+            <span class="brand-mini">When Accuracy Matters.</span>
+        </div>
+        <div class="top-bar-right">
+            <a href="tel:+15165551234" class="top-phone">(516) 555-1234</a>
+            <a href="/contact#consultation" class="btn btn-sm btn-outline">Schedule a Free Consultation</a>
+            <a href="#" class="btn btn-sm btn-ghost">Client Portal</a>
+        </div>
+    </div>
+</header>
+
+<nav class="main-nav">
+    <div class="container nav-inner">
+        <a href="/" class="logo">Your<span>CPA</span>Firm</a>
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li class="has-dropdown">
+                <button class="dropdown-toggle" type="button">About</button>
+                <ul class="dropdown">
+                    <li><a href="/about">Our Firm</a></li>
+                    <li><a href="/about#team">Our Team</a></li>
+                </ul>
+            </li>
+            <li class="has-dropdown">
+                <button class="dropdown-toggle" type="button">Services</button>
+                <ul class="dropdown">
+                    <li><a href="/services#individuals">Individuals</a></li>
+                    <li><a href="/services#business">Business</a></li>
+                    <li><a href="/services#tax">Tax</a></li>
+                    <li><a href="/services#quickbooks">QuickBooks</a></li>
+                </ul>
+            </li>
+            <li class="has-dropdown">
+                <button class="dropdown-toggle" type="button">Tax Center</button>
+                <ul class="dropdown">
+                    <li><a href="/tax-center#refund">Track Your Refund</a></li>
+                    <li><a href="/tax-center#dates">Tax Due Dates</a></li>
+                    <li><a href="/tax-center#rates">Tax Rates</a></li>
+                </ul>
+            </li>
+            <li class="has-dropdown">
+                <button class="dropdown-toggle" type="button">Resources</button>
+                <ul class="dropdown">
+                    <li><a href="/resources#newsletter">Newsletter</a></li>
+                    <li><a href="/resources#guides">Guides</a></li>
+                    <li><a href="/resources#faqs">FAQs</a></li>
+                </ul>
+            </li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+
+<section class="page-hero">
+    <div class="container">
+        <h1>Tax Center</h1>
+        <p>Use these quick links and summaries to stay on top of key tax deadlines and information.</p>
+    </div>
+</section>
+
+<section id="refund" class="container tax-section">
+    <h2>Track Your Refund</h2>
+    <p>You can track your federal refund status directly through the IRS website.</p>
+    <p><a href="https://www.irs.gov/refunds" target="_blank" rel="noopener" class="btn btn-outline">Check IRS Refund Status</a></p>
+</section>
+
+<section id="dates" class="strip tax-section">
+    <div class="container">
+        <h2>Important Tax Dates</h2>
+        <ul>
+            <li>January: Year-end statements begin arriving</li>
+            <li>April 15: Individual income tax returns generally due</li>
+            <li>Quarterly: Estimated tax payments for certain taxpayers</li>
+        </ul>
+    </div>
+</section>
+
+<section id="rates" class="container tax-section">
+    <h2>Tax Rates Overview</h2>
+    <p>Tax brackets and rates change over time. Refer to the IRS for the latest official information, or contact our office and we’ll walk you through the details that apply to you.</p>
+    <a href="https://www.irs.gov" target="_blank" rel="noopener" class="link-arrow">Visit IRS.gov</a>
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div>
+            <h3>YourCPA Firm</h3>
+            <p>280 Example Road<br>Manhasset, New York 11030</p>
+            <p><a href="tel:+15165551234">(516) 555-1234</a><br>
+               <a href="mailto:info@yourcpafirm.com">info@yourcpafirm.com</a></p>
+        </div>
+        <div>
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+                <li><a href="/services">Services</a></li>
+                <li><a href="/tax-center">Tax Center</a></li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/contact">Schedule a Consultation</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Stay Informed</h4>
+            <p>Get monthly tips on taxes, cash flow, and planning.</p>
+            <form class="newsletter-form" data-form="newsletter">
+                <label for="newsletter-email-tax" class="sr-only">Email</label>
+                <input id="newsletter-email-tax" name="email" type="email" placeholder="Your email" required>
+                <button type="submit" class="btn btn-primary btn-block">Subscribe</button>
+                <p class="form-status" aria-live="polite"></p>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+            <span>© 2025 YourCPA Firm. All rights reserved.</span>
+            <span class="footer-meta">
+                <a href="#">Site Map</a> •
+                <a href="#">Privacy Policy</a> •
+                <a href="#">Disclaimer</a>
+            </span>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

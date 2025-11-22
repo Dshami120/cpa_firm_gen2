@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resources - YourCPA Firm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Full-service CPA firm website.">
+    <link rel="stylesheet" href="/styles.css">
+    <script defer src="/script.js"></script>
+</head>
+<body>
+<header class="top-bar">
+    <div class="container top-bar-inner">
+        <div class="top-bar-left">
+            <span class="brand-mini">When Accuracy Matters.</span>
+        </div>
+        <div class="top-bar-right">
+            <a href="tel:+15165551234" class="top-phone">(516) 555-1234</a>
+            <a href="/contact#consultation" class="btn btn-sm btn-outline">Schedule a Free Consultation</a>
+            <a href="#" class="btn btn-sm btn-ghost">Client Portal</a>
+        </div>
+    </div>
+</header>
+
+<nav class="main-nav">
+    <div class="container nav-inner">
+        <a href="/" class="logo">Your<span>CPA</span>Firm</a>
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li class="has-dropdown">
+                <button class="dropdown-toggle" type="button">About</button>
+                <ul class="dropdown">
+                    <li><a href="/about">Our Firm</a></li>
+                    <li><a href="/about#team">Our Team</a></li>
+                </ul>
+            </li>
+            <li class="has-dropdown">
+                <button class="dropdown-toggle" type="button">Services</button>
+                <ul class="dropdown">
+                    <li><a href="/services#individuals">Individuals</a></li>
+                    <li><a href="/services#business">Business</a></li>
+                    <li><a href="/services#tax">Tax</a></li>
+                    <li><a href="/services#quickbooks">QuickBooks</a></li>
+                </ul>
+            </li>
+            <li class="has-dropdown">
+                <button class="dropdown-toggle" type="button">Tax Center</button>
+                <ul class="dropdown">
+                    <li><a href="/tax-center#refund">Track Your Refund</a></li>
+                    <li><a href="/tax-center#dates">Tax Due Dates</a></li>
+                    <li><a href="/tax-center#rates">Tax Rates</a></li>
+                </ul>
+            </li>
+            <li class="has-dropdown">
+                <button class="dropdown-toggle" type="button">Resources</button>
+                <ul class="dropdown">
+                    <li><a href="/resources#newsletter">Newsletter</a></li>
+                    <li><a href="/resources#guides">Guides</a></li>
+                    <li><a href="/resources#faqs">FAQs</a></li>
+                </ul>
+            </li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+
+<section class="page-hero">
+    <div class="container">
+        <h1>Resources</h1>
+        <p>Guides, reminders, and tools to help you make informed financial decisions.</p>
+    </div>
+</section>
+
+<section id="newsletter" class="container resource-section">
+    <h2>Monthly Newsletter</h2>
+    <p>We send a short update each month with practical tips and deadlines to keep on your radar.</p>
+    <p>Subscribe on any page using the newsletter form in the footer.</p>
+</section>
+
+<section id="guides" class="strip resource-section">
+    <div class="container">
+        <h2>Guides</h2>
+        <ul class="bullet-grid">
+            <li>Starting a new business</li>
+            <li>Cash flow basics</li>
+            <li>Planning for retirement</li>
+            <li>Preparing for tax season</li>
+        </ul>
+    </div>
+</section>
+
+<section id="faqs" class="container resource-section">
+    <h2>Frequently Asked Questions</h2>
+    <details class="faq-item">
+        <summary>What documents do I need for my tax appointment?</summary>
+        <p>Common items include W-2s, 1099s, mortgage interest statements, property tax bills, and records of major purchases or life changes.</p>
+    </details>
+    <details class="faq-item">
+        <summary>Do you work with clients outside New York?</summary>
+        <p>Yes. In many cases we can help clients in other states; reach out to discuss your situation.</p>
+    </details>
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div>
+            <h3>YourCPA Firm</h3>
+            <p>280 Example Road<br>Manhasset, New York 11030</p>
+            <p><a href="tel:+15165551234">(516) 555-1234</a><br>
+               <a href="mailto:info@yourcpafirm.com">info@yourcpafirm.com</a></p>
+        </div>
+        <div>
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+                <li><a href="/services">Services</a></li>
+                <li><a href="/tax-center">Tax Center</a></li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/contact">Schedule a Consultation</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Stay Informed</h4>
+            <p>Get monthly tips on taxes, cash flow, and planning.</p>
+            <form class="newsletter-form" data-form="newsletter">
+                <label for="newsletter-email-resources" class="sr-only">Email</label>
+                <input id="newsletter-email-resources" name="email" type="email" placeholder="Your email" required>
+                <button type="submit" class="btn btn-primary btn-block">Subscribe</button>
+                <p class="form-status" aria-live="polite"></p>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+            <span>© 2025 YourCPA Firm. All rights reserved.</span>
+            <span class="footer-meta">
+                <a href="#">Site Map</a> •
+                <a href="#">Privacy Policy</a> •
+                <a href="#">Disclaimer</a>
+            </span>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
